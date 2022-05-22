@@ -60,5 +60,17 @@ public class D2_Variables {
                            double has 16 digits at most in decimal part.
 
         2)Non-Primitive Data Types
+            i)Those data types can be created by Java and by Java Developers
+            String is a non-primitive data type
+            String data type is used for multiple characters
+
+        Note: What is the difference between "primitive" and "non-primitive" data types?
+                1) "primitive" data types start with lower cases, "non-primitive" start with upper cases
+                2) "primitive" can be created just by Java developers, "non-primitive" can be created by Java and by Java developers
+                3) "primitive" use different size of memory but "non-primitive" use memory same
+                4) "primitive" have just values in it but "non-primitive" have values and methods in it
      */
+
+    String nameOfStudent = "Mark Twain";
+    String studentId = "Mt2022_01";
 }
