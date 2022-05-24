@@ -7,11 +7,29 @@ public class D03_DataTypes {
             --->> Auto Widening: (converting small data type to large data type)
             <<--- Explicit Narrowing: (converting large data type to small data type)
 
-        Wrapper Class: are classes for number primitive data types. we convert them
+        Wrapper Class: for number primitive data types. we convert them to non-primitive data types.
             Normally primitive data types have just value, do not have methods.
-            With wrapper class we can use this primitive data types as a non-primitive data types.
-            So they will have methods.
+            With wrapper class we can use this primitive data types as a non-primitive data types. So they will have methods.
+                byte --> Byte
+                short --> Short
+                int --> Integer
+                long --> Long
+                float --> Float
+                double --> Double
+                char --> Character
+                boolean --> Boolean
 
+        Memory Usage in Java
+            There are 2 types of memories in Java
+                1)Stack Memory ==> Small
+                2)Heap Memory ==> Huge
+
+                In a Stack Memory there are 2 things:
+            1)Primitive data is stored in "Stack" memory.
+            2)Java puts the addresses(reference) of non-primitive data, into "Stack Memory".
+
+            When you create non-primitive data, Java will put it in to Heap Memory,
+         create an address for it and put  it in to Stack Memory.
     */
 
     public static void main(String[] args) {
