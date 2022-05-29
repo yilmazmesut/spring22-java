@@ -13,6 +13,15 @@ public class D06_NestedTernary {
 
         // What if ternary returns different data types?
         String s = "Tom Hanks";
-        s.startsWith("T") ? s.length() : s.charAt(0)
+
+        // If you have different data types in ternary, to see outputs on the cosole you can put the ternary directly inside the System.out.println
+        System.out.println(s.startsWith("T") ? s.length() : String.valueOf(s.charAt(0)));
+
+        // If it is mandatory to create a container for the result of the ternary, convert data types to the same data type.
+        String result2 = s.startsWith("K") ? String.valueOf(s.length()) : String.valueOf(s.charAt(0));
+        System.out.println(result2);
+
+
+
     }
 }

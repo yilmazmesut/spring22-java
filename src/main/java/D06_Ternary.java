@@ -26,7 +26,7 @@ public class D06_Ternary {
         String result2 = absY > 99 && absY < 1000 ? "It has 3 digits" : "It has no 3 digits";
         System.out.println(result2);
         // Note: Using '>' is better than using '>=', because there is single condition in the first
-        // Note: if you use numbers in your code, you must Boundary Value Analysis(BVA) to test it.
+        // Note: if you use numbers in your code, you must Boundary Value Analysis(BVA) to test  it.
 
 
         //// Type code to check following conditions for state abbreviations in the USA:
