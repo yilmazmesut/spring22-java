@@ -21,6 +21,16 @@ public class D07_Switch03 {
             case 'u':
                 System.out.println("Vowel");
                 break;
+            case 'b':
+            case 'c':
+            case 'd':
+            case 'f':
+            case 'g':
+            case 'h':
+                System.out.println("Not Vowel");
+                break;
+            default:
+                System.out.println("Enter a letter, not the others..");
         }
 
 
