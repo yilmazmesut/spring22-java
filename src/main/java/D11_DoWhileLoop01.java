@@ -12,6 +12,8 @@ public class D11_DoWhileLoop01 {
 
         int k = 1;
 
+        System.out.println("==========================");
+
         do {
             System.out.println("Hey, I am do-while-loop");
             k++;
