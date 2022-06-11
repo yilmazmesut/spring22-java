@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class D10_ForLoop06 {
 
     public static void main(String[] args) {
@@ -35,5 +37,14 @@ public class D10_ForLoop06 {
 //        ----------------------------------------
 
 
+        //// Example:
+        Scanner input = new Scanner(System.in);
+        System.out.print("Please enter the number of rows: ");
+        int row = input.nextInt();
+        int rowAbs = Math.abs(row);
+
+        for (int i = rowAbs; i >= -rowAbs; i--) {
+            System.out.print(i + " ");
+        }
     }
 }
