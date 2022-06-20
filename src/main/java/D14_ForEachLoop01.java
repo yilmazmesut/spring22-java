@@ -26,10 +26,36 @@ public class D14_ForEachLoop01 {
         // Type code to check if a specific element exists in an array or not
         String crr[] = { "Java", "Selenium", "Api",  "Sql"};
         String expectedElement = "Sql";
+        int counter = 0;
+
         for (String w : crr ) {
             if (w.contains(expectedElement)){
-
+                counter++;
             }
         }
+
+        if (counter>0) {
+            System.out.println("The array has the expected element");
+        } else {
+            System.out.println("The array does not have `the expected element");
+
+        }
+
+
+        // Type code to check if the number of usage of specific element in an array:
+        // [12, 2, 23, -5, 12, 23, 12]  ==> 12 was used 3 times
+        //                              ==> -5 was used 1 time
+        //                              ==> 200 was used 0 time
+
+        int drr[] = {12, 2, 23, -5, 12, 23, 12};
+        int expected = 12;
+        int flag = 0;
+
+        for (int w : drr) {
+            if (w == expected ) {
+                flag++;
+            }
+        }
+        System.out.println(expected + " was used " + flag + " time");
     }
 }
