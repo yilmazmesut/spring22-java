@@ -1,9 +1,8 @@
 package day15;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
-public class D15_MultiDimensionalArrays01 {
+public class MultiDimensionalArrays01 {
 
     public static void main(String[] args) {
 
