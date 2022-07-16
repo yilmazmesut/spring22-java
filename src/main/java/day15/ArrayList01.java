@@ -46,7 +46,10 @@ public class ArrayList01 {
             // For lists to explain the number of elements us "size"
             al.size();  // 4
 
-        // How to get a specific element frim a list by using index:
+        // How to get a specific element from a list by using index:
         int el = al.get(3);
+        System.out.println(el);
+
+
         }
 }
