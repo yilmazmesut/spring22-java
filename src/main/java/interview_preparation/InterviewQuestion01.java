@@ -2,7 +2,7 @@ package interview_preparation;
 
 import java.util.Scanner;
 
-public class D06_InterviewQuestion01 {
+public class InterviewQuestion01 {
     public static void main(String[] args) {
 
         //// Ask user to enter 2 numbers then swap them
