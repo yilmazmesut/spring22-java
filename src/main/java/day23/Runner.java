@@ -30,7 +30,8 @@ public class Runner {
     public static void main(String[] args) {
 
         //Cat c = new Cat();
-        //Bird b = new Bird();
+        Bird b = new Bird();
+        System.out.println(b);
         //Cat d = new Cat(true);
         //Dog e = new Dog();
         //Dog f = new Dog(14);

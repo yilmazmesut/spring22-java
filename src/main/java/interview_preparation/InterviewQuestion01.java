@@ -3,6 +3,7 @@ package interview_preparation;
 import java.util.Scanner;
 
 public class InterviewQuestion01 {
+
     public static void main(String[] args) {
 
         //// Ask user to enter 2 numbers then swap them

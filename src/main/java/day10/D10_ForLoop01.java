@@ -7,7 +7,7 @@ public class D10_ForLoop01 {
         //// Type "Hi!" on the console 5 times:
 
         /*
-         Note: By using "Loops" you can do repeated actions without repeating ypur codes
+         Note: By using "Loops" you can do repeated actions without repeating your codes
          There are 4 Loops:   1) for-loop
                               2) while-loop
                               3) do-while-loop
